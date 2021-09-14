@@ -9,7 +9,7 @@ public class Seleniumweek7review2 {
       @Test
 	public void test(){
 		
-		System.setProperty("webdriver.chrome.driver", "C:\Users\HP\Downloads\chromedriver_win32 (3).exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		System.out.println("Welcome  to Ebay...");
 		driver.get("https://www.ebay.com/");
